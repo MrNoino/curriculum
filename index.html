@@ -84,14 +84,19 @@
                 
             </figure>
 
-            <div class="col-6 col-md-3 text-center text-md-end align-middle">
+            <div id="personalLinks" class="col-6 col-md-3 text-center text-md-end align-middle">
 
-                <p><a href="" id="gmail"><span class="bi bi-envelope-fill black"></span><code>Gmail</code></a></p>
-                <p><a href="" id="outlook"><span class="bi bi-microsoft blue"></span><code>Outlook</code></a></p>
-                <p><a href="" id="whatsapp"><span class="bi bi-whatsapp green"></span><code>WhatsApp</code></a></p>
-                <p><a href="https://www.linkedin.com/in/nunomiguelsantoslopes" target="_blank"><span class="bi bi-linkedin blue"></span><code>Linkedin</code></a></p>
-                <p><a href="https://github.com/mrnoino" target="_blank"><span class="bi bi-github black"></span><code>Github</code></a></p>
-                <p><a href="https://stackoverflow.com/users/11480441/nuno" target="_blank"><span class="bi bi-stack-overflow orange"></span><code>Stack Overflow</code></a></p>
+                <p><a href="" target="_blank" id="gmail" class="notranslate"><span class="bi bi-envelope-fill text-dark p-1"></span>Gmail</a></p>
+
+                <p><a href="" target="_blank" id="outlook" class="notranslate"><span class="bi bi-microsoft text-primary p-1"></span><code></code>Outlook</a></p>
+
+                <p><a href="" target="_blank" id="whatsapp" class="notranslate"><span class="bi bi-whatsapp text-success p-1"></span>Whatsapp</a></p>
+
+                <p><a href="https://www.linkedin.com/in/nunomiguelsantoslopes" target="_blank" class="notranslate"><span class="bi bi-linkedin text-primary p-1"></span>Linkedin</a></p>
+
+                <p><a href="https://github.com/mrnoino" target="_blank" class="notranslate"><span class="bi bi-github text-dark p-1"></span>Github</a></p>
+
+                <p><a href="https://stackoverflow.com/users/11480441/nuno" target="_blank" class="notranslate"><span class="bi bi-stack-overflow text-warning p-1"></span>Stack Overflow</a></p>
 
             </div>
 
@@ -99,7 +104,7 @@
 
         <section class="row mt-5">
 
-            <div class="col-12">
+            <div id="personalData" class="col-12">
 
                 <p><strong class="title">Full name:</strong> Nuno Miguel Santos Lopes</p>
                 <p><strong class="title">Birthdate:</strong> 16-06-2001</p>
@@ -120,113 +125,66 @@
 
                         <h2 class="accordion-header" id="panel-heading-education">
 
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-collapse-education" aria-expanded="true" aria-controls="panel-collapse-education">
                             Education
                             </button>
 
                         </h2>
 
-                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show container-fluid" aria-labelledby="panelsStayOpen-headingOne">
-                            
-                            <div id="education-body" class="accordion-body row">
-                            
-                                <div class="col-3">This is the third item's accordion body.</div>
-                                <div class="col-6">It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the </div>
-                                <div class="col-3"><code>.accordion-body</code>, though the transition does limit overflow.</div>
-                            
-                            </div>
-
-                        </div>
-
-                    </div>
+                        <div id="panel-collapse-education" class="accordion-collapse collapse show container-fluid" aria-labelledby="panel-heading-education">
                     
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="panel-heading-softskills">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                            Soft Skills
-                            </button>
-                        </h2>
+                            <div id="university-body" class="accordion-body row">
 
-                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse container-fluid" aria-labelledby="panelsStayOpen-headingTwo">
-                            
-                            <div id="softskills-body" class="accordion-body row">
-                            
-                                <div class="col-3">This is the third item's accordion body.</div>
-                                <div class="col-6">It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the </div>
-                                <div class="col-3"><code>.accordion-body</code>, though the transition does limit overflow.</div>
-                            
+                                <div class="col-12 col-md-3">
+
+                                    <p class="p-2 text-wrap text-break">
+                                        <strong>University</strong>
+                                    </p>
+
+                                </div>
+                                <div class="p-2 col-12 col-md-6 border-top border-bottom">
+                                    
+                                    <p class="p-2 text-wrap text-break">
+                                        Superior Course in Technologies  and Programming of Informatic Systems<br>School website: <a href="http://www.estgoh.ipc.pt" target="_blank">ESTGOH</a>
+                                    </p>
+                                
+                                </div>
+
+                                <div class="col-12 col-md-3">
+
+                                    <p class="p-2 text-wrap text-break">
+                                        2020 - To date
+                                    </p>
+
+                                </div>
+
                             </div>
 
-                        </div>
+                            <div id="highschool-body" class="accordion-body row border-top">
 
-                    </div>
+                                <div class="col-12 col-md-3">
 
-                    <div class="accordion-item">
+                                    <p class="p-2 text-wrap text-break">
+                                        <strong>High School</strong>
+                                    </p>
 
-                        <h2 class="accordion-header" id="panel-heading-hardskills">
-                            
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                            Hard Skills
-                            </button>
+                                </div>
+                                <div class="col-12 col-md-6">
 
-                        </h2>
+                                    <p class="p-2 text-wrap text-break border-top border-bottom">
+                                        Professional course of Management and Programming of Informatic Systems<br>Final average: 18 in 20<br>School website: <a href="https://aeoh.pt" target="_blank">AEOH</a>
+                                    </p>
+                                </div>
+                                        
+                                
+                                <div class="col-12 col-md-3">
 
-                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse container-fluid" aria-labelledby="panelsStayOpen-headingThree">
-                            
-                            <div class="accordion-body row">
-                            
-                                <div class="col-3">This is the third item's accordion body.</div>
-                                <div class="col-6">It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the </div>
-                                <div class="col-3"><code>.accordion-body</code>, though the transition does limit overflow.</div>
-                            
-                            </div>
+                                    <p class="p-2 text-wrap text-break">
+                                        2017 - 2020
+                                    </p>
 
-                        </div>
+                                </div>
 
-                    </div>
-
-                    <div class="accordion-item">
-
-                        <h2 class="accordion-header" id="panel-heading-awards">
-                            
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                            Awards
-                            </button>
-
-                        </h2>
-
-                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse container-fluid" aria-labelledby="panelsStayOpen-headingFour">
-                            
-                            <div class="accordion-body row">
-                            
-                                <div class="col-3">This is the third item's accordion body.</div>
-                                <div class="col-6">It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the </div>
-                                <div class="col-3"><code>.accordion-body</code>, though the transition does limit overflow.</div>
-                            
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="accordion-item">
-
-                        <h2 class="accordion-header" id="panel-heading-">
-                            
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
-                            
-                            </button>
-
-                        </h2>
-
-                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse container-fluid" aria-labelledby="panelsStayOpen-headingFive">
-                            
-                            <div class="accordion-body row">
-                            
-                                <div class="col-3">This is the third item's accordion body.</div>
-                                <div class="col-6">It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the </div>
-                                <div class="col-3"><code>.accordion-body</code>, though the transition does limit overflow.</div>
-                            
                             </div>
 
                         </div>
@@ -253,7 +211,7 @@
 
     </footer>
 
-    <script type="text/javascript" src="scripts/index.js"></script>
+    <script type="text/javascript" src="./scripts/index.js"></script>
     
 </body>
 </html>
