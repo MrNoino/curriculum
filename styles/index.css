@@ -1,0 +1,58 @@
+.white{
+
+    color: #FFFFFF;
+
+}
+
+.black{
+
+    color: #000000;
+
+}
+
+.blue{
+
+    color: #1E90FF;
+
+}
+
+.green{
+
+    color: #32CD32;
+
+}
+
+.orange{
+
+    color: #FFA500;
+
+}
+
+.title{
+
+    color: #2E8B57;
+
+}
+
+.bi{
+
+    margin-right: 5px;
+
+}
+
+.photo{
+
+    border-radius: 50%;
+    /*width: 40%;
+    height: 90%;*/
+
+}
+
+.footer-row{
+
+    height: 100%;
+    min-height: 50px;
+
+    padding: 15px 0px;
+
+}
