@@ -37,3 +37,7 @@ for(var i = 0; i < navLinks.length; i++){
     
 
 }
+
+console.log(window.location.href);
+
+document.getElementById("copyright").innerHTML = (window.location.href.includes("pt/")) ? "Copyright &#169; " + new Date().getFullYear() + ". Todos os direitos reservados." : "Copyright &#169; " + new Date().getFullYear() + ". All rights reserved.";
